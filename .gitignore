@@ -1,0 +1,22 @@
+# Can also ignore all directories and files in a directory.
+filescache
+node_modules
+package-lock.json
+
+.DS_Store
+.DS_Store?
+
+.svn
+
+.sass-cache
+
+*.sublime-workspace
+*.sublime-project
+.vscode
+
+npm-debug.log
+
+
+.~lock*
+jsconfig.json
+todo.md

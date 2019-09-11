@@ -24,7 +24,7 @@
     },
     "scripts": {},
     "files": [
-        "checker",
+        "watcher",
         "CHANGELOG.md",
         "README.md",
         ".gitignore"

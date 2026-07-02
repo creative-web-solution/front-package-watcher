@@ -2,8 +2,7 @@
 
 let fs              = require( 'fs-extra' );
 let path            = require( 'path' );
-let gutil           = require( 'gulp-util' );
-let PluginError     = gutil.PluginError;
+let PluginError     = require( 'plugin-error' );
 
 const PLUGIN_NAME       = 'gulp-packages-change-check';
 const CACHE_FOLDER_PATH = [ __dirname, '../filescache' ].join( '/' )

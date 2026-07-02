@@ -16,7 +16,7 @@ module.exports = function( userOptions ) {
     }
 
     // creating a stream through which each file will pass
-    return through.obj(
+    return through.objectTransform(
         function( file, enc, cb ) {
 
             if ( userOptions === 'update-cache' ) {

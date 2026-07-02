@@ -2,7 +2,7 @@
   "name": "@creative-web-solution/front-package-watcher",
   "title": "Frontend Package.json change watcher",
   "description": "Check if the package.json has changed and warn the user",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/creative-web-solution/front-package-watcher",
   "author": "Creative Web Solution <contact@cws-studio.com> (https://www.cws-studio.com)",
   "keywords": [],
@@ -13,8 +13,8 @@
   "license": "MIT",
   "private": false,
   "engines": {
-    "node": ">=9.0.0",
-    "npm": ">=5.0.0"
+    "node": ">=22.0.0",
+    "npm": ">=10.0.0"
   },
   "scripts": {},
   "files": [
@@ -24,20 +24,20 @@
     ".gitignore"
   ],
   "dependencies": {
-    "fs-extra": "8.1.x",
-    "through2": "3.0.x",
-    "gulp-util": "3.0.x",
-    "core-js": "3.1.4"
+    "fs-extra": "11.3.6",
+    "through2": "5.0.4",
+    "core-js": "3.49.0",
+    "plugin-error": "2.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.6.0",
-    "@babel/register": "7.6.0",
-    "@babel/preset-env": "7.6.0",
-    "@babel/node": "7.6.1",
-    "@babel/cli": "7.6.0",
-    "gulp": "4.0.2",
-    "babel-eslint": "10.0.3",
-    "eslint": "6.3.0"
+    "@babel/core": "8.0.1",
+    "@babel/register": "8.0.1",
+    "@babel/preset-env": "8.0.2",
+    "@babel/node": "8.0.1",
+    "@babel/eslint-parser": "8.0.1",
+    "@babel/cli": "8.0.1",
+    "gulp": "5.0.1",
+    "eslint": "10.6.0"
   },
   "bugs": {
     "url": "https://github.com/creative-web-solution/front-package-watcher/issues"
